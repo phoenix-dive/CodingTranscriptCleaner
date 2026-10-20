@@ -1,8 +1,10 @@
-# HIIII
+# Coding Transcript Optimizer
 
 This is a Python script that cleans up scripts made by Zoom's automated transcript feature. You can install Python [here](https://www.python.org/).
 
 # How to run this?
+
+A reminder that as always, do make backups before you run your files into a Python script, especially one that has the potential to overwrite files. 
 
 Put the transcripts you wish to clean into the Input folder. Then, run a command prompt:
 `python3 main.py`, then, a lot of other things
@@ -18,4 +20,5 @@ Examples:
 Will take a file named test2 in the Input folder, clean it, and post the cleaned version in the Output file and name it `hello`.
 
 ```python3 main.py "Input/test2" "Output/hello" -n "[INTERVIEWER]" "[PARTICIPANT]" "[STUFF]" -o "Yes"``` will do the Input/Output stuff, except it will override "hello", and the names that will be condensed together will be "[INTERVIEWER]", "[PARTICIPANT]", and "[STUFF]".
-Example: 
+
+
